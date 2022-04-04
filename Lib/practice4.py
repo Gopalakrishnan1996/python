@@ -1,3 +1,6 @@
+from locale import str
+
+
 class d:
     MAX = 256
     #function 1
@@ -22,9 +25,9 @@ class d:
             return 0
 
         # Compare count arrays
-        for i in xrange(NO_OF_CHARS):
-            if count1[i] != count2[i]:
-                return 0
+        # for i in xrange(NO_OF_CHARS):
+        #     if count1[i] != count2[i]:
+        #         return 0
 
         return 1
 
